@@ -37,6 +37,7 @@ features:
                 # description: 
                 icon: box # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
               - title: Wedding Photographers
+                url: /documentation
                 # description: 
                 icon: server
               - title: Landscape Photographers
