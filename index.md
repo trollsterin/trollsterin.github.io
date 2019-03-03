@@ -7,20 +7,20 @@ keywords: # Define keywords for search engines
 
 # Hero section
 hero:
-    title: Hero section — Title
-    text: Hero section — Text
+    title: Tightly curated lists of the best photography tools
+    text: Featured apps
     background_image: # Paste image URL to display image in background of hero section
     buttons: # Add buttons below, there are examples with all available options
-        - label: Button — Filled with icon
-          url: http://example.com
+        - label: Hotjar
+          url: http://hotjar.com
           external_url: true # Set to "false" if you're pointing to inner page
           style: filled # Choose style: "filled" or "bordered"
-          icon: github # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
-        - label: Button — Bordered with icon
-          url: /documentation
-          external_url: false
+          icon:  # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+        - label: Github.com
+          url: https://www.github.com
+          external_url: true
           style: bordered
-          icon: gitlab
+          icon: 
     download_link: # Set small download link placed below buttons
         label: Download — v4.0.0
         url: https://example.com
