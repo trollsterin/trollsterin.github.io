@@ -13,10 +13,10 @@ dox:
             #   item_url: /
             - item_name: About
               item_url: /about
-        cta:
-            label: Sign Up
-            url: /documentation
-            icon: folder # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+        # cta:
+        #     label: Sign Up
+        #     url: /documentation
+        #     icon: folder # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
     footer:
         logo:
             text: 
