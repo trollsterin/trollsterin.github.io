@@ -9,17 +9,17 @@ dox:
             text: PhotographyResources.io
             image:
         nav:
-            - item_name: Homepage
-              item_url: /
-            - item_name: Default Layout
-              item_url: /default
+            # - item_name: Homepage
+            #   item_url: /
+            - item_name: About
+              item_url: /about
         cta:
-            label: Documentation
+            label: Sign Up
             url: /documentation
             icon: folder # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
     footer:
         logo:
-            text: Project name
+            text: PhotographyResources.io
             image:
         text: Copyright &copy; 2019
     google_analytics:
