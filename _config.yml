@@ -13,15 +13,15 @@ dox:
             #   item_url: /
             - item_name: About
               item_url: /about
-        cta:
-            label: Sign Up
-            url: /documentation
-            icon: folder # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+        # cta:
+        #     label: Sign Up
+        #     url: /documentation
+        #     icon: folder # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
     footer:
         logo:
-            text: PhotographyResources.io
+            text: 
             image:
-        text: Copyright &copy; 2019
+        text: Made with ☕️ from 🇳🇴 and 🇨🇦
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
