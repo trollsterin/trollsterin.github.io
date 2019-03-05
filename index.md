@@ -44,7 +44,7 @@ features:
                 # description: 
                 icon: cpu
         - title: Website
-          description: We all need a great performming website, and here's the best
+          description: We all need a great performing website, and here's the best
           grid: # Add feature grid items below, there are examples with all available options
               - title: Hosting
                 url: www.google.com
