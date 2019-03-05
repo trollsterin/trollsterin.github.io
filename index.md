@@ -30,7 +30,7 @@ features:
     rows: # Add feature rows below, there are examples with all available options
         - title: Inspiration
           description: Inspriation from the best photographers around the world 🌍
-          buttons: # Add feature grid items below, there are examples with all available options
+          grid: # Add feature grid items below, there are examples with all available options
               - title: Portrait Photographers
                 url: www.google.com
                 external_url: true
@@ -45,7 +45,7 @@ features:
                 icon: cpu
         - title: Website
           description: We all need a great performing website, and here's the best
-          buttons: # Add feature grid items below, there are examples with all available options
+          grid: # Add feature grid items below, there are examples with all available options
               - title: Hosting
                 url: www.google.com
                 external_url: true
