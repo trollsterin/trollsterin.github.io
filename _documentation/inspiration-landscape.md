@@ -8,7 +8,7 @@ comments: false # Set to "true" in order to enable comments on this page. Make s
 
 # Hero section
 hero:
-    title: Wedding Inspiration
+    title: Landscape Inspiration
     text: The best photographers from around the world
 ---
 
