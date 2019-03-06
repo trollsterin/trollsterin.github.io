@@ -1,10 +1,10 @@
 {% if site.documentation %}
 	<div class="u-bg-gray-30 u-pt-8 u-pb-4">
 		<div class="o-container">
-			{% assign documentation = site.documentation | sort: 'order' %}
-			{% for document in documentation %}
-				<div class="o-row">
-					<div class="o-col-10@lg o-col-8@xl o-offset-1@lg u-mb-4 u-mr-auto">
+			<div class="o-row u-mb-5">
+				<div class="o-col-6@md o-col-4@lg u-mb-3">			
+					{% assign documentation = site.documentation | sort: 'order' %}
+					{% for document in documentation %}
 						<a href="{{ document.url }}" class="c-feature-card">
 							<div class="c-feature-card__content">
 								{% if document.title %}
