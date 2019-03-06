@@ -12,7 +12,7 @@ hero:
     background_image: # Paste image URL to display image in background of hero section
     buttons: # Add buttons below, there are examples with all available options
         - label: Hotjar
-          url: http://hotjar.com
+          url: https://www.hotjar.com/r/r52af94
           external_url: true # Set to "false" if you're pointing to inner page
           style: filled # Choose style: "filled" or "bordered"
           icon:  # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
