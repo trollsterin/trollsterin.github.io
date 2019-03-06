@@ -1,6 +1,6 @@
 ---
 # Page settings
-title: Wedding Inspiration # Define a title of your page
+title: Lifestyle Inspiration # Define a title of your page
 # description: The best photographers from around the world # Define a description of your page
 keywords: # Define keywords for search engines
 # order: 0 # Define order of this page in list of all documentation documents
