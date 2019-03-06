@@ -16,8 +16,8 @@ hero:
           external_url: true # Set to "false" if you're pointing to inner page
           style: filled # Choose style: "filled" or "bordered"
           icon:  # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
-        - label: Email Signup
-          url: https://www.github.com
+        - label: Pixieset
+          url: https://pixieset.com/ref/JBedZ404PE 
           external_url: true
           style: bordered
           icon: 
