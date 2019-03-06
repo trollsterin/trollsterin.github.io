@@ -1,11 +1,11 @@
 {% if site.documentation %}
 	<div class="u-bg-gray-30 u-pt-8 u-pb-4">
 		<div class="o-container">
-			<div class="o-row">
-				{% assign documentation = site.documentation | sort: 'order' %}
-				{% for document in documentation %}
+			{% assign documentation = site.documentation | sort: 'order' %}
+			{% for document in documentation %}
+				<div class="o-row">
 					<div class="o-col-10@lg o-col-8@xl o-offset-1@lg u-mb-4 u-mr-auto">
-						<a href="{{ document.url }}" class="c-feature-card c-feature-card--large">
+						<a href="{{ document.url }}" class="c-feature-card">
 							<div class="c-feature-card__content">
 								{% if document.title %}
 									<h4 class="u-h1 u-font-normal">{{ document.title }}</h4>
@@ -16,8 +16,8 @@
 							</div><!-- /.c-featured-card__content -->
 						</a><!-- /.c-feature-card -->
 					</div><!-- /.col -->
-				{% endfor %}
-			</div><!-- /.o-row -->
+				</div><!-- /.o-row -->
+			{% endfor %}
 		</div><!-- /.o-container -->
 	</div>
 {% endif %}
