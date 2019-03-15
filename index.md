@@ -35,7 +35,7 @@ features:
                 url: https://www.google.com
                 # description: testing this out
               - title: Wedding Photographers
-                local_url: https://www.nrk.no
+                url_local: https://www.nrk.no
                 # description: 
               - title: Landscape Photographers
                 url: https://www.hotjar.com/r/r52af94
@@ -45,15 +45,13 @@ features:
           grid: # Add feature grid items below, there are examples with all available options
               - title: Hosting
                 url: www.google.com
-                external_url: true
-                # description: 
-                icon: box # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+                # description:  
               - title: Templates
                 # description: 
-                icon: server
+                url_local: /testing
               - title: Plugins
                 # description: 
-                icon: cpu
+                url: https://vg.no
     footer: # Set features section footer variables
         title: Suggestions?
         description: Have a suggestion on a new photography resource?

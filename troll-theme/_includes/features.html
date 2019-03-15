@@ -20,12 +20,23 @@
 					<div class="o-row u-mb-5">
 						{% for item in row.grid %}
 							<div class="o-col-6@md o-col-4@lg u-mb-3">
-								<a href="{{ item.url }}" target="_blank" class="c-feature-card">
-									{% if item.icon %}
-										<div class="c-feature-card__icon">
-											<i class="o-icon o-icon--{{ item.icon }}"></i>
-										</div><!-- /.c-feature-card__icon -->
-									{% endif %}
+								{% if item.url %}
+									<a href="{{ item.url }}" target="_blank" class="c-feature-card">
+										{% if item.icon %}
+											<div class="c-feature-card__icon">
+												<i class="o-icon o-icon--{{ item.icon }}"></i>
+											</div><!-- /.c-feature-card__icon -->
+										{% endif %}
+								{% endif %}	
+								
+								{% if item.url_local %}
+									<a href="{{ item.url_local }}" class="c-feature-card">
+										{% if item.icon %}
+											<div class="c-feature-card__icon">
+												<i class="o-icon o-icon--{{ item.icon }}"></i>
+											</div><!-- /.c-feature-card__icon -->
+										{% endif %}
+								{% endif %}	
 									{% if item.title or item.description %}
 										<div class="c-feature-card__content">
 											<h4 class="c-feature-card__title">{{ item.title }}</h4>
