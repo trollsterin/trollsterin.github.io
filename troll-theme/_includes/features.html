@@ -20,7 +20,7 @@
 					<div class="o-row u-mb-5">
 						{% for item in row.grid %}
 							<div class="o-col-6@md o-col-4@lg u-mb-3">
-								<div class="c-feature-card">
+								<a href="{{ item.url }}" target="_blank" class="c-feature-card">
 									{% if item.icon %}
 										<div class="c-feature-card__icon">
 											<i class="o-icon o-icon--{{ item.icon }}"></i>
@@ -32,7 +32,7 @@
 											<p>{{ item.description }}</p>
 										</div><!-- /.c-featured-card__content -->
 									{% endif %}
-								</div><!-- /.c-feature-card -->
+								</a><!-- /.c-feature-card -->
 							</div><!-- /.o-col -->
 						{% endfor %}
 					</div><!-- /.o-row -->

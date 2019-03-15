@@ -32,17 +32,14 @@ features:
           description: Inspriation from the best photographers around the world 🌍
           grid: # Add feature grid items below, there are examples with all available options
               - title: Portrait Photographers
-                url: www.google.com
-                external_url: true
-                # description: 
-                icon: box # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+                url: https://www.google.com
+                # description: testing this out
               - title: Wedding Photographers
-                url: /documentation
+                local_url: https://www.nrk.no
                 # description: 
-                icon: server
               - title: Landscape Photographers
+                url: https://www.hotjar.com/r/r52af94
                 # description: 
-                icon: cpu
         - title: Website
           description: We all need a great performing website, and here's the best
           grid: # Add feature grid items below, there are examples with all available options
