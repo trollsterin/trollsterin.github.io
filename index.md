@@ -29,25 +29,31 @@ hero:
 # Features section
 features:
     rows: # Add feature rows below, there are examples with all available options
-        - title: Inspiration
+        - title: Inspiration Photographers
           description: Inspriation from the best photographers around the world 🌍
           grid: # Add feature grid items below, there are examples with all available options
-              - title: Portrait Photographers
-                url: https://www.google.com
+              - title: Portrait 
+                url: https://www.instagram.com/bszphoto/
                 # description: testing this out
-              - title: Wedding Photographers
-                url_local: https://www.nrk.no
+              - title: Wedding 
+                url: https://www.instagram.com/ginaryanphoto/
                 # description: 
-              - title: Landscape Photographers
-                url: https://www.hotjar.com/r/r52af94
+              - title: Landscape 
+                url: https://www.instagram.com/benjaminhardman/
                 # description: 
-              - title: inspiration wedding
-                url: /wedding
+              - title: Animal 
+                url: https://www.instagram.com/kpunkka/
                 # description:
-        - title: Website
-          description: We all need a great performing website, and here's the best
+              - title: Cityscape
+                url: https://instagram.com/jonnygrifff/
+                # description:
+              - title: Abstract
+                url: https://instagram.com/jonnygrifff/
+                # description:
+        - title: Wordpress Website
+          description: The ultimate list for getting up and running with a wordpress website to showcase your stunning photography and sell services. 
           grid: # Add feature grid items below, there are examples with all available options
-              - title: Hosting
+              - title: Wordpress Hosting test
                 url: www.google.com
                 # description:  
               - title: Templates
@@ -60,13 +66,13 @@ features:
         title: Suggestions?
         description: Have a suggestion on a new photography resource?
         buttons: 
-            - label: Email
-              url: hei@griffinphotography.no
+            - label: Tweet us
+              url: twitter.com
               external_url: true # Set to "false" if you're pointing to inner page
-              style: bordered # Choose style: "filled" or "bordered"
+              style: filled # Choose style: "filled" or "bordered"
               icon: # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
-            - label: Facebook
-              url: /documentation
+            - label: Email
+              url: mailto:hei@griffinphotography.no
               external_url: false
               style: bordered
               icon:
