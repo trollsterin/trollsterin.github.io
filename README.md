@@ -6,7 +6,7 @@ TODO
     - [x] Homepage: Create Twitter
     - [ ] Homepage: Finish affiliate links using email
     - [x] Homepage: Google analytics
-    - [ ] Homepage: Hotjar
+    - [x] Homepage: Hotjar
 - [ ] Homepage: Fix CSS hover to make more fun
 - [ ] About: Create page and list
     - Why we created the website
