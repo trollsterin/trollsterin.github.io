@@ -22,6 +22,10 @@ hero:
           external_url: true
           style: bordered
           # icon: 
+        - label: Photographer of the week
+          url: https://www.instagram.com/jonnygrifff
+          external_url: true
+          style: bordered
     # download_link: # Set small download link placed below buttons
     #     label: Download — v4.0.0
     #     url: https://example.com
@@ -29,7 +33,7 @@ hero:
 features:
     rows: 
         - title: Photographers
-          description: Inspriation from the best photographers around the world 🌍
+          description: Inspiration from the best photographers around the world 🌍
           grid: 
               - title: Portrait 
                 url: https://www.instagram.com/ginaryanphoto/
@@ -60,6 +64,15 @@ features:
                 # description: 
                 url: https://www.wordpress.com
               - title: Hosting | Bluehost
+                # description: 
+                url: https://www.bluehost.com
+              - title: <b>Theme</b> | testing
+                url: https://www.siteground.com
+                # description:  
+              - title: <b>Theme</b> | 
+                # description: 
+                url: https://www.wordpress.com
+              - title: <b>Theme</b> | 
                 # description: 
                 url: https://www.bluehost.com
               - title: Plugin | Ajax load more
@@ -104,44 +117,82 @@ features:
           grid: 
               - title: Waveapps 
                 url: https://www.waveapps.com
-                description: Managing your accounting
-              - title: Wedding 
+                description: Managing your accounting and invoices
+              - title: Logos 
                 url: https://www.instagram.com/griffinphotography.no
                 # description: 
-              - title: Amazon 
+              - title: Advertisment 
                 url: https://www.instagram.com/benjaminhardman/
                 # description: 
-              - title: Animal 
+              - title: Domains 
                 url: https://www.instagram.com/kpunkka/
                 # description:
-              - title: Cityscape
+              - title: Payment Solution
                 url: https://www.instagram.com/mr007/
                 # description:
-              - title: Abstract
+              - title: SEO
                 url: https://instagram.com/jonnygrifff/
                 # description:
-     
-        - title: Photography Gear
-          description: Let's be real, we all know that it 
+              - title: Legal 
+                url: https://www.instagram.com/kpunkka/
+                # description:
+              - title: Photography Delivery
+                url: https://www.instagram.com/mr007/
+                # description:
+              - title: 
+                url: https://instagram.com/jonnygrifff/
+                # description:
+        - title: Photography Gear | <b>Camera Bodies</b>
+          description: 
           grid: 
-              - title: Waveapps 
+              - title: Canon 5d mark iii
                 url: https://www.waveapps.com
-                description: Managing your accounting
-              - title: Wedding 
+                description: This is a super affordable and great lens for all occasions. 
+              - title: Sony a7iii
                 url: https://www.instagram.com/griffinphotography.no
-                # description: 
-              - title: Amazon 
+                description: Most think that a macro is for only macro - but you would be surprised on how well this lens performs for portraits!
+              - title: Canon 70-200mm f2.8 
                 url: https://www.instagram.com/benjaminhardman/
-                # description: 
-              - title: Animal 
+                description: It can be an expensive and heavy lens, but if you are shooting weddings, landscapes or animal photography - this is a must have!
+        - title: Photography Gear | <b>Lenses</b>
+          description: Let's be real, we all know that gear matters. Following, is a list of my favorite lenses that I have been using over the past couple years. 
+          grid: 
+              - title: Sigma 35 f1.4 
+                url: https://www.waveapps.com
+                description: This is a super affordable and great lens for all occasions. 
+              - title: Canon 100mm f2.8 Macro
+                url: https://www.instagram.com/griffinphotography.no
+                description: Most think that a macro is for only macro - but you would be surprised on how well this lens performs for portraits!
+              - title: Canon 70-200mm f2.8 
+                url: https://www.instagram.com/benjaminhardman/
+                description: It can be an expensive and heavy lens, but if you are shooting weddings, landscapes or animal photography - this is a must have!
+              - title: Sony 55mm f1.8 FE
                 url: https://www.instagram.com/kpunkka/
-                # description:
+                description: If you just purchased
               - title: Cityscape
                 url: https://www.instagram.com/mr007/
                 # description:
               - title: Abstract
                 url: https://instagram.com/jonnygrifff/
                 # description:
+        - title: Photography Gear | <b>Accessories</b>
+          description: The best tripods, sliders, and filters that will bring your photography to the next level.
+          grid: 
+              - title: Travel Tripod
+                url: https://www.waveapps.com
+                description: This is a super affordable and great lens for all occasions. 
+              - title: Canon 100mm f2.8 Macro
+                url: https://www.instagram.com/griffinphotography.no
+                description: Most think that a macro is for only macro - but you would be surprised on how well this lens performs for portraits!
+        # - title: Videography Gear | <b>Accessories</b>
+        #   description: The best tripods, sliders, and filters that will bring your photography to the next level.
+        #   grid: 
+        #       - title: Travel Tripod
+        #         url: https://www.waveapps.com
+        #         description: This is a super affordable and great lens for all occasions. 
+        #       - title: Canon 100mm f2.8 Macro
+        #         url: https://www.instagram.com/griffinphotography.no
+        #         description: Most think that a macro is for only macro - but you would be surprised on how well this lens performs for portraits!
           
     footer: 
         title: Suggestions?
