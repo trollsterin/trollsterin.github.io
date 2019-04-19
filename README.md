@@ -2,10 +2,10 @@
 
 TODO
 
-- [ ] Create email with https://www.zoho.com/mail/
-    - [ ] Homepage: Create Twitter
+- [x] Create email with https://www.zoho.com/mail/
+    - [x] Homepage: Create Twitter
     - [ ] Homepage: Finish affiliate links using email
-    - [ ] Homepage: Google adsense
+    - [x] Homepage: Google analytics
     - [ ] Homepage: Hotjar
 - [ ] Homepage: Fix CSS hover to make more fun
 - [ ] About: Create page and list
