@@ -52,6 +52,9 @@
 		<meta name="msapplication-square310x310logo" content="/favicon/mstile-310x310.png" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,500,500i,700,700i">
 		<link rel="stylesheet" href="{% if jekyll.environment == 'production' %}{{ site.dox.baseurl }}{% endif %}/troll-theme/assets/css/style.css">
+	
+		{% include hotjar.html %}
+
 	</head>
 	<body>
 		{% if site.dox.header.nav or site.dox.header.cta %}
