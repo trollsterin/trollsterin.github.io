@@ -33,7 +33,7 @@ hero:
 features:
     rows: 
         - title: Photographers
-          description: Inspiration from the best photographers around the world 🌍
+          description: Inspriation from the best photographers around the world 🌍
           grid: 
               - title: Portrait 
                 url: https://www.instagram.com/ginaryanphoto/
@@ -64,15 +64,6 @@ features:
                 # description: 
                 url: https://www.wordpress.com
               - title: Hosting | Bluehost
-                # description: 
-                url: https://www.bluehost.com
-              - title: <b>Theme</b> | testing
-                url: https://www.siteground.com
-                # description:  
-              - title: <b>Theme</b> | 
-                # description: 
-                url: https://www.wordpress.com
-              - title: <b>Theme</b> | 
                 # description: 
                 url: https://www.bluehost.com
               - title: Plugin | Ajax load more
