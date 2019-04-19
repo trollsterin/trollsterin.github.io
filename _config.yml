@@ -25,7 +25,7 @@ dox:
     google_analytics:
         tracking_code: UA-58630348-9 
     hotjar:
-        enabed: yesir # leave blank is hotjar is not enabled through hotjar.com
+        id: 1288455 # leave blank is hotjar is not enabled through hotjar.com
     comments:
         disqus_forum_shortname: # Add your Disqus forum shortname to activate comments site-wide
 
