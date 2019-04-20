@@ -28,3 +28,5 @@ had to edit the `$grid-gutter`:
 - [ ] script to resize all images in image folder
     - python or bash scrip that resizes all images to 1200px width (maybe something x height). In theory, the same size height and width would be best but could be hard
     - convert all images to jpeg2000 (.JP2) https://en.wikipedia.org/wiki/JPEG_2000
+- [ ] producthunt colors for link (cta) button
+- [ ] newsletter signup with mailchimp

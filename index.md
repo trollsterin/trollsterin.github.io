@@ -37,7 +37,7 @@ features:
               - title: Portrait 
                 url: https://www.instagram.com/ginaryanphoto/
                 # description: testing this out
-                img: https://www.jonnygrifff.no/images/thumbs/11.jpg
+                img: https://www.jonnygrifff.no/images/thumbs/10.jpg
               - title: Wedding 
                 url: https://www.instagram.com/griffinphotography.no
                 # description: 
@@ -46,7 +46,7 @@ features:
               - title: Landscape 
                 url: https://www.instagram.com/benjaminhardman/
                 # description: 
-                img: https://www.jonnygrifff.no/images/thumbs/11.jpg
+                img: https://www.jonnygrifff.no/images/thumbs/04.jpg
               - title: Animal 
                 url: https://www.instagram.com/kpunkka/
                 # description:
