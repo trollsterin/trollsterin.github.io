@@ -25,3 +25,6 @@ had to edit the `$grid-gutter`:
 - [ ] submit website to google
 - [ ] post website to multiple places
 - [ ] create a sitemap
+- [ ] script to resize all images in image folder
+    - python or bash scrip that resizes all images to 1200px width (maybe something x height). In theory, the same size height and width would be best but could be hard
+    - convert all images to jpeg2000 (.JP2) https://en.wikipedia.org/wiki/JPEG_2000
