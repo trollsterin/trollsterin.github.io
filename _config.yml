@@ -19,7 +19,7 @@ dox:
             icon:  # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
     footer:
         logo:
-            text: the best camera is the one we always have
+            text: the best camera is the one we carry
             image:
         text: Made with ☕️ from 🇳🇴 and 🇨🇦
     google_analytics:

@@ -1,9 +1,9 @@
 ---
 # Page settings
 layout: homepage # Choose layout: "default", "homepage" or "documentation-archive"
-title: Best photography tools and resources # Define a title of your page
-description: # Define a description of your page
-keywords: # Define keywords for search engines
+title: Best photography tools and resources for photographers # Define a title of your page
+description: We bring the best photography resources and tools in one place for wedding photographers. Starting a business and building elegant websites for photographers can be tricky, but photographyresources.io solves that best
+keywords: photography resources, wedding photography gear, lifestyle, portrait photography gear, website tools, 
 
 # Hero section
 hero:
@@ -33,7 +33,7 @@ hero:
 features:
     rows: 
         - title: Photographers
-          description: Inspriation from the best photographers around the world 🌍
+          description: Inspiration from the best photographers around the world 🌍
           grid: 
               - title: Portrait 
                 url: https://www.instagram.com/ginaryanphoto/
@@ -57,7 +57,7 @@ features:
                 # description:
 
         - title: <b>Website</b> | Wordpress 
-          description: The ultimate list for getting up and running with a wordpress website to showcase your stunning photography and sell services. 
+          description: The ultimate list for getting up and running with a WordPress website to showcase your stunning photography and sell services. 
           grid: 
               - title: Hosting | SiteGround
                 url: https://www.siteground.com/index.htm?afcode=4448e657ab7c9e544319ee803c8bcaaf
@@ -67,7 +67,7 @@ features:
                 url: https://www.wordpress.com
               - title: Hosting | Bluehost
                 # description: 
-                url: https://www.bluehost.com
+                url: https://www.bluehost.com/track/photographyresources 
               - title: Plugin | Ajax load more
                 url: https://wordpress.org/plugins/ajax-load-more/
                 # description:  
@@ -140,22 +140,22 @@ features:
           grid: 
               - title: Canon EOS 5D Mark IV
                 url: https://amzn.to/2KRUakT
-                description: The all around superhorse for wedding or portrait photography. Canon offers the most lens compatability on the market.
+                description: The all-around superhorse for wedding or portrait photography. Canon offers the most lens compatibility on the market.
               - title: Sony a7iii
                 url: https://amzn.to/2DoD5J4
-                description: The new, shiny, small, light, powerful and extremly versitile camera body that is ultimately the best bang for your buck. Great for photos and videos.
+                description: The new, shiny, small, light, powerful and extremely versatile camera body that is ultimately the best bang for your buck. Great for photos and videos.
               - title: Pentax K-1 Mark II 
                 url: https://amzn.to/2KR5KNk
                 description: 36MP Weather Resistant DSLR with a tilt shift lens. This small yet powerful body is great for nature or travel photographer
         - title: Photography Gear | <b>Lenses</b>
-          description: Let's be real, we all know that gear matters. Following, is a list of my favorite lenses that I have been using over the past couple years. 
+          description: Let's be real, we all know that gear matters. Following is a list of my favorite lenses that I have been using over the past couple years. 
           grid: 
               - title: Sigma 35 f1.4 (Canon)
                 url: https://amzn.to/2ZmGIZz
-                description: The best for portrait. At a great price this is definitely a goto!
+                description: The best for portrait. At a great price, this is definitely a goto!
               - title: Canon 100mm f2.8 Macro
                 url: https://www.instagram.com/griffinphotography.no
-                description: Most think that a macro is for only macro - but you would be surprised on how well this lens performs for portraits!
+                description: Most think that a macro is only for macro - but you would be surprised on how well this lens performs for portraits!
               - title: Canon 70-200mm f2.8 
                 url: https://amzn.to/2GsdjVn
                 description: Most wouldn't think about it but this lens is a masterpiece in macro but also portrait photography!
@@ -179,7 +179,7 @@ features:
                 description: The most affordable yet sturdy tripod that is perfect for traveling or on the go. Personally, the orange one is my favorite!
               - title: USB/SD Reader
                 url: https://amzn.to/2DmVru0
-                description: With 8 memory cards that need to unload images, it can be a very time consuming process. This will help your productivity game.
+                description: With 8 memory cards that need to upload images, it can be a very time-consuming process. This will help your productivity game.
         # - title: Videography Gear | <b>Accessories</b>
         #   description: The best tripods, sliders, and filters that will bring your photography to the next level.
         #   grid: 
@@ -188,7 +188,7 @@ features:
         #         description: This is a super affordable and great lens for all occasions. 
         #       - title: Canon 100mm f2.8 Macro
         #         url: https://www.instagram.com/griffinphotography.no
-        #         description: Most think that a macro is for only macro - but you would be surprised on how well this lens performs for portraits!
+        #         description: Most think that a macro is only for macro - but you would be surprised on how well this lens performs for portraits!
           
     footer: 
         title: Suggestions?
