@@ -7,7 +7,7 @@ TODO
     - [x] Homepage: Finish affiliate links using email
     - [x] Homepage: Google analytics
     - [x] Homepage: Hotjar
-- [ ] Homepage: Fix CSS hover to make more fun
+- [x] Homepage: Fix CSS hover to make more fun
 - [x] Homepage: SEO
 - [ ] About: Create page and list
     - Why we created the website
@@ -19,6 +19,8 @@ TODO
 - [ ] Photoshop: Logo for producthunt.com
 - [ ] Add security headers https://securityheaders.com/?q=photographyresources.io&followRedirects=on
 - [ ] Rotate home page images
-- [ ] in a post, make images full screen
+- [x] in a post, make images full screen
+had to edit the `$grid-gutter`:
 - [ ] submit website to google
 - [ ] post website to multiple places
+- [ ] create a sitemap

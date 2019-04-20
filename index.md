@@ -38,7 +38,6 @@ features:
               - title: Portrait 
                 url: https://www.instagram.com/ginaryanphoto/
                 # description: testing this out
-                icon: feather
               - title: Wedding 
                 url: https://www.instagram.com/griffinphotography.no
                 # description: 
