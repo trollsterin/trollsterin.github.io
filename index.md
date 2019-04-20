@@ -145,6 +145,7 @@ features:
               - title: Sony a7iii
                 url: https://amzn.to/2DoD5J4
                 description: The new, shiny, small, light, powerful and extremely versatile camera body that is ultimately the best bang for your buck. Great for photos and videos.
+                img: https://www.bhphotovideo.com/images/images2500x2500/sony_ilce_7m3_alpha_a7_iii_mirrorless_1394217.jpg
               - title: Pentax K-1 Mark II 
                 url: https://amzn.to/2KR5KNk
                 description: 36MP Weather Resistant DSLR with a tilt shift lens. This small yet powerful body is great for nature or travel photographer

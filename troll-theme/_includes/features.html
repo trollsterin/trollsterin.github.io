@@ -1,11 +1,8 @@
 {% if page.features.rows or page.features.footer %}
 	<div class="u-bg-gray-30 u-pt-8 u-pb-4">
 		<div class="o-container">
-			
 			{% for row in page.features.rows %}
 				{% if row.title or row.description %}
-
-				<!-- <br><br><br><br><br><br><br><br> -->
 					<div class="o-row">
 						<div class="o-col-10@lg o-col-8@xl o-offset-1@lg u-mb-4 u-mr-auto">
 							{% if row.title %}
@@ -14,7 +11,7 @@
 							{% if row.description %}
 								<div class="u-text-md">
 									<p>{{ row.description }}</p>
-								</div>
+								</div><!-- /.u-text-md -->
 							{% endif %}
 						</div><!-- /.o-col -->
 					</div><!-- /.o-row -->
@@ -51,28 +48,12 @@
 										{% endif %}
 									</div><!-- /.c-featured-card__content -->
 								{% endif %}
-
-								{% if item.img %}
-
-										<!-- <div class="c-feature-card__img">
-											<p><img src="{{ item.img }}"></div></p>
-										</div> -->
-									
-								{% endif %}
-
-								</a><!-- /.c-feature-card -->
-								
-							</div><!-- /.o-col -->
-							
+								</a><!-- /.c-feature-card -->	
+							</div><!-- /.o-col -->						
 						{% endfor %}
 					</div><!-- /.o-row -->
 				{% endif %}
 			{% endfor %}
-		</div>
-
-
-
-
 
 			{% if page.features.footer %}
 				<div class="o-row">
@@ -147,8 +128,6 @@
 					</div><!-- /.o-col -->
 				</div><!-- /.o-row -->
 			{% endif %}
-		</div><!-- /.o-container -->
-		
+		</div><!-- /.o-container -->		
 	</div>
-
 {% endif %}

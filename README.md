@@ -9,6 +9,7 @@ TODO
     - [x] Homepage: Hotjar
 - [x] Homepage: Fix CSS hover to make more fun
 - [x] Homepage: SEO
+- [x] Homepage: layout with image below
 - [ ] About: Create page and list
     - Why we created the website
     - Who we are
