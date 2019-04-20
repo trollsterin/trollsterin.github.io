@@ -19,3 +19,6 @@ TODO
 - [ ] Photoshop: Logo for producthunt.com
 - [ ] Add security headers https://securityheaders.com/?q=photographyresources.io&followRedirects=on
 - [ ] Rotate home page images
+- [ ] in a post, make images full screen
+- [ ] submit website to google
+- [ ] post website to multiple places

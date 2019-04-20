@@ -6,7 +6,7 @@
  * Card component used for highlighting features on your site.
  */
 
-.c-feature-card {
+ .c-feature-card {
 	@extend .o-link-bare;
 	position: relative;
 	display: flex;
@@ -14,6 +14,7 @@
 	color: $color-gray-300;
 	background-color: $color-white;
 	padding: 1.25rem 1.5625rem .3125rem 1.5625rem;
+	// transition: 0s background-color;
 
 	@include media-breakpoint-up(md) {
 		padding: 1.5625rem 1.875rem .625rem 1.875rem;
@@ -21,8 +22,16 @@
 }
 
 .c-feature-card:hover {
-	background-color: #ffaf36
+	// background-color: #ffaf36c4;
+	box-shadow: -0.5em 0.5em 0.5em -0.4em;
+	// box-shadow: inset -0.5em 0 0 0;
+	  // transform: translateY(-0.25em);
+	// transition-delay:0.3s;
 }
+
+// .c-feature-card:focus {
+// 	background-color: #302c27
+// }
 
 .c-feature-card--large {
 	font-size: 1.125rem;
