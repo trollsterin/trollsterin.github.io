@@ -2,7 +2,7 @@
 # Page settings
 layout: default # Choose layout: "default", "homepage" or "documentation-archive"
 title: Privacy Policy # Define a title of your page
-description: Last updated | May 25th, 2018 # Define a description of your page
+description: Last updated | April 20th, 2019 # Define a description of your page
 keywords: privacy policy for photographyresources.io # Define keywords for search engines
 background_image: https://www.jonnygrifff.no/images/thumbs/11.jpg
 comments: false # Set to "true" in order to enable comments on this page. Make sure you properly setup "disqus_forum_shortname" variable in "_config.yml"

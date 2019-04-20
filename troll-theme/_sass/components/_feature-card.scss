@@ -61,21 +61,24 @@
 
 /* img
    ========================================================================== */
-
-.c-feature-card__img {
+// .c-feature-card__img:not(media-breakpoint-up(md)){
+// 	padding: 0 0 0 0;
+// }
+.c-feature-img {
 	// flex: 1;
 	// font-size: 3.5rem;
 	// margin-right: 1rem;
 	// display: inline-block;
 	// margin-top: 2.4875rem;
-	// max-width:100%;
+	max-width:100%;
 	// width: 100%;
     // box-sizing: border-box;
 	// margin-left: -1.9rem;
 	// margin-bottom: -2.1rem;
 	// margin-right: -6.9rem;
 	// position: relative;
-	width: 120%;
+	// vertical-align: left;
+	margin-left: -20px
 	// height: 200px;
 	// flex-shrink: 0;
 	// flex: 0 0 400px;
