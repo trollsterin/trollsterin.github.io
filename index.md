@@ -9,8 +9,7 @@ keywords: photography resources, wedding photography gear, lifestyle, portrait p
 hero:
     title: Tightly curated lists of the best photography tools
     text: <i>Featured apps</i>
-    # background_image: https://images.unsplash.com/photo-1506701160839-34cfdecaf53c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
-    background_image: https://www.jonnygrifff.no/images/thumbs/11.jpg
+    background_image: https://www.jonnygrifff.no/images/thumbs/04.jpg
     buttons: # Add buttons below, there are examples with all available options
         - label: Hotjar
           url: https://www.hotjar.com/r/r4af8d3
@@ -38,13 +37,16 @@ features:
               - title: Portrait 
                 url: https://www.instagram.com/ginaryanphoto/
                 # description: testing this out
+                img: https://www.jonnygrifff.no/images/thumbs/11.jpg
               - title: Wedding 
                 url: https://www.instagram.com/griffinphotography.no
                 # description: 
                 img: https://www.jonnygrifff.no/images/thumbs/11.jpg
+                icon:
               - title: Landscape 
                 url: https://www.instagram.com/benjaminhardman/
                 # description: 
+                img: https://www.jonnygrifff.no/images/thumbs/11.jpg
               - title: Animal 
                 url: https://www.instagram.com/kpunkka/
                 # description:
@@ -146,6 +148,7 @@ features:
               - title: Pentax K-1 Mark II 
                 url: https://amzn.to/2KR5KNk
                 description: 36MP Weather Resistant DSLR with a tilt shift lens. This small yet powerful body is great for nature or travel photographer
+                img: https://www.jonnygrifff.no/images/thumbs/11.jpg
         - title: Photography Gear | <b>Lenses</b>
           description: Let's be real, we all know that gear matters. Following is a list of my favorite lenses that I have been using over the past couple years. 
           grid: 
