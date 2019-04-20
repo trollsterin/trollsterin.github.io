@@ -21,7 +21,7 @@ dox:
         logo:
             text: the best camera is the one we carry
             image:
-        text: Made with ☕️ from 🇳🇴 and 🇨🇦
+        text: Made with ☕️ from 🇳🇴 and 🇨🇦 | <a href="https://www.photographyresources.io/privacy">Privacy Policy</a>
     google_analytics:
         tracking_code: UA-58630348-9 
     hotjar:

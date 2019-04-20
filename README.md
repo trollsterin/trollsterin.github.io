@@ -13,7 +13,7 @@ TODO
     - Why we created the website
     - Who we are
     - Add some pictures
-- [ ] Privacy Page
+- [x] Privacy Page
     - Talk about affiliate links
 - [ ] Homepage: Add more pictures
 - [ ] Photoshop: Logo for producthunt.com
