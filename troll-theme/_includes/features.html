@@ -45,9 +45,9 @@
 								{% if item.title or item.description %}
 									<div class="c-feature-card__content">
 										<h4 class="c-feature-card__title">{{ item.title }}</h4>
-										<p>{{ item.description }}</p>
+										<p class="c-feature-card__description">{{ item.description }}</p>
 										{% if item.img %}
-											<p><img class="c-feature-img" src="{{ item.img }}"></p>
+											<img class="c-feature-img" src="{{ item.img }}">
 										{% endif %}
 									</div><!-- /.c-featured-card__content -->
 								{% endif %}
