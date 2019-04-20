@@ -14,9 +14,13 @@ dox:
             - item_name: About
               item_url: /about
         cta:
-            label: Newsletter
-            url: /documentation
-            icon:  # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+            label: Product Hunt
+            url: https://www.producthunt.com
+            icon:  # Choo
+        # cta:
+        #     label: Newsletter
+        #     url: /documentation
+        #     icon:  # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
     footer:
         logo:
             text: the best camera is the one we carry

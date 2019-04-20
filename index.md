@@ -193,14 +193,14 @@ features:
         title: Suggestions?
         description: We are looking to hear from you with your comments and recommendations!
         buttons: 
-            - label: Tweet us
-              url: twitter.com
-              external_url: false # Set to "false" if you're pointing to inner page
-              style: filled # Choose style: "filled" or "bordered"
-              icon: # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
+            # - label: Tweet us
+            #   url: twitter.com
+            #   external_url: false # Set to "false" if you're pointing to inner page
+            #   style: filled # Choose style: "filled" or "bordered"
+            #   icon: # Choose from 266 icons in "Feather" icon set, list of all icons is available here - https://feathericons.com
             - label: Email
               url: mailto:hello@photographyresources.io
               external_url: true
-              style: bordered
+              style: filled
               icon:
 ---
