@@ -65,7 +65,7 @@ features:
                 # description:  
               - title: Hosting | Wordpress.com
                 # description: 
-                url: https://www.wordpress.com
+                url: https://wordpress.com/alp/?aff=19569&cid=2055314
               - title: Hosting | Bluehost
                 # description: 
                 url: https://www.bluehost.com/track/photographyresources 
