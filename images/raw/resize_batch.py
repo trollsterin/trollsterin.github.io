@@ -4,8 +4,9 @@ from PIL import Image
 import sys
 import fire
 
-def resize_and_crop(filename, size, crop_type='top'):
-    #def resize_and_crop(img_path, modified_path, size, crop_type='top'):
+
+def resize_and_crop(filename, size, crop_type="top"):
+    # def resize_and_crop(img_path, modified_path, size, crop_type='top'):
 
     """
     Resize and crop an image to fit the specified size.
@@ -25,51 +26,60 @@ def resize_and_crop(filename, size, crop_type='top'):
 
     filename = sys.argv[1]
     img_path = filename
-    modified_path = '../resized/' + img_path[:-4] + '.resized.jpg'
-    #size = (1200,1200)
-    #crop_type = 'middle'
+    modified_path = "../resized/" + img_path[:-4] + ".resized.jpg"
+    # size = (1200,1200)
+    # crop_type = 'middle'
 
     # If height is higher we resize vertically, if not we resize horizontally
     img = Image.open(img_path)
     # Get current and desired ratio for the images
     img_ratio = img.size[0] / float(img.size[1])
     ratio = size[0] / float(size[1])
-    #The image is scaled/cropped vertically or horizontally depending on the ratio
+    # The image is scaled/cropped vertically or horizontally depending on the ratio
     if ratio > img_ratio:
-        img = img.resize((size[0], int(round(size[0] * img.size[1] / img.size[0]))),
-            Image.ANTIALIAS)
+        img = img.resize(
+            (size[0], int(round(size[0] * img.size[1] / img.size[0]))), Image.ANTIALIAS
+        )
         # Crop in the top, middle or bottom
-        if crop_type == 'top':
+        if crop_type == "top":
             box = (0, 0, img.size[0], size[1])
-        elif crop_type == 'middle':
-            box = (0, int(round((img.size[1] - size[1]) / 2)), img.size[0],
-                int(round((img.size[1] + size[1]) / 2)))
-        elif crop_type == 'bottom':
+        elif crop_type == "middle":
+            box = (
+                0,
+                int(round((img.size[1] - size[1]) / 2)),
+                img.size[0],
+                int(round((img.size[1] + size[1]) / 2)),
+            )
+        elif crop_type == "bottom":
             box = (0, img.size[1] - size[1], img.size[0], img.size[1])
-        else :
-            raise ValueError('ERROR: invalid value for crop_type')
+        else:
+            raise ValueError("ERROR: invalid value for crop_type")
         img = img.crop(box)
     elif ratio < img_ratio:
-        img = img.resize((int(round(size[1] * img.size[0] / img.size[1])), size[1]),
-            Image.ANTIALIAS)
+        img = img.resize(
+            (int(round(size[1] * img.size[0] / img.size[1])), size[1]), Image.ANTIALIAS
+        )
         # Crop in the top, middle or bottom
-        if crop_type == 'top':
+        if crop_type == "top":
             box = (0, 0, size[0], img.size[1])
-        elif crop_type == 'middle':
-            box = (int(round((img.size[0] - size[0]) / 2)), 0,
-                int(round((img.size[0] + size[0]) / 2)), img.size[1])
-        elif crop_type == 'bottom':
+        elif crop_type == "middle":
+            box = (
+                int(round((img.size[0] - size[0]) / 2)),
+                0,
+                int(round((img.size[0] + size[0]) / 2)),
+                img.size[1],
+            )
+        elif crop_type == "bottom":
             box = (img.size[0] - size[0], 0, img.size[0], img.size[1])
-        else :
-            raise ValueError('ERROR: invalid value for crop_type')
+        else:
+            raise ValueError("ERROR: invalid value for crop_type")
         img = img.crop(box)
-    else :
-        img = img.resize((size[0], size[1]),
-            Image.ANTIALIAS)
+    else:
+        img = img.resize((size[0], size[1]), Image.ANTIALIAS)
     # If the scale is the same, we do not need to crop
     img.save(modified_path)
 
-#resize_and_crop('04.jpg', '04.new.jpg', (1200,1200), 'middle')
-if __name__ == '__main__':
-    fire.Fire(resize_and_crop)
 
+# resize_and_crop('04.jpg', '04.new.jpg', (1200,1200), 'middle')
+if __name__ == "__main__":
+    fire.Fire(resize_and_crop)
